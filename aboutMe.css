@@ -1,0 +1,13 @@
+.aboutme{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.about__content{
+	width: 50%;
+}
+
+.aboutme__title{
+	font-size: 2rem;
+}
