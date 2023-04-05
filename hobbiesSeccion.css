@@ -1,5 +1,52 @@
 .hobbies{
     background: #171717;
-    height: 400px;
+    height:100%;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies__title {
+color: #ffffff;
+background: #171717;
+text-align: center;
+
+}
+ .wave{
+    background-color: #171717;
+ }
+.content__hb {
+    margin-top: 30px;
+    text-align: center;
+    color: #ffffff;
+    width: 120px;
+    height: 150px;
+    border-radius: 26px;
+    background: none;
+    transition: all 500ms;
+}
+
+.icon__hb{
+    width: 100px;
+    height: 100px;
+    transition: all 500ms;
+    opacity: 60%;
+}
+
+.content__hb:hover{
+    width:170px ;
+    height:190px ;
+}
+.icon__hb:hover{
+    width:140px ;
+    height: 140px;
+    opacity: 100%;
+}
+.contenedor__h{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
