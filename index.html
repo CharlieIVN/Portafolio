@@ -13,7 +13,8 @@
     <link rel='stylesheet' type='text/css' href='skills.css'>
     <link rel='stylesheet' type='text/css' href='hobbiesSeccion.css'>
     <link rel='stylesheet' type='text/css' href='academy.css'>
-    
+    <link rel='stylesheet' type='text/css' href='proyectos.css'>
+    <link rel='stylesheet' type='text/css' href='form.css'>
 </head>
 
 <header>
@@ -38,8 +39,8 @@
     <div class="presentacion__texto">
         <h1 class="p__texto--saludo">Hola, mi nombre es Charlie IVN</h1>
       <p class="p__texto--especialidad">Frontend Developer</p>
-         <br>
-         <br>
+        <br>
+        <br>
       <p class="p__texto--descripcion"> Soy un estudiante de desarrollo front-end y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
     </div>
     <div class="p__texto--img">
@@ -49,7 +50,7 @@
 
 <section class="menu__social">    
     <button name="button" class="button__cv">Descargar CV</button>
-    <button name="button" class="button__proyectos">Mis Proyectos</button>
+    <a href="#seccionExp"><button name="button" class="button__proyectos">Mis Proyectos</button></a>
 <div class="container">
     <div class="icon">
         <i class="fa fa-github"></i>
@@ -66,11 +67,11 @@
 <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 80" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #171717;"></path></svg></div>
   <section class="aboutme">
     <div class="about__content">
-       <h2 class="aboutme__title"> Acerca de Mi</h2>
-       <br><br>
-       <p class="aboutme__text">
+      <h2 class="aboutme__title"> Acerca de Mi</h2>
+      <br><br>
+      <p class="aboutme__text">
         Como estudiante de desarrollo front-end, mi formación académica se centra en la adquisición de habilidades y conocimientos en lenguajes de programación como HTML, CSS y JavaScript, así como en la comprensión de los principios fundamentales del diseño web y la usabilidad. Además, también he estudiado conceptos de interacción humano-computadora y diseño centrado en el usuario para poder crear interfaces de usuario intuitivas y accesibles. He desarrollado proyectos prácticos para mejorar mi capacidad para construir sitios web responsivos, optimizados para motores de búsqueda y adaptables a diferentes dispositivos. Además, he aprendido a trabajar con frameworks y librerías populares como React, Vue y Angular para construir aplicaciones web más complejas. En resumen, mi formación académica me ha proporcionado una base sólida para construir aplicaciones web atractivas y funcionales para usuarios de todo el mundo
-       </p>
+      </p>
     </div>
   </section>
 
@@ -79,16 +80,16 @@
       <section class="skills">
   <div class="contenedor">
     <div class="content__icon">
-       <div class="figure"><img class="icon__skill" src="/icons/CSS.svg" alt="icono Css">
-       </div>
-   </div>
+      <div class="figure"><img class="icon__skill" src="/icons/CSS.svg" alt="icono Css">
+      </div>
+  </div>
     <div class="content__icon">
-       <div class="figure"><img class="icon__skill" src="/icons/HTML.svg" alt="icono Html">
-       </div>
+    <div class="figure"><img class="icon__skill" src="/icons/HTML.svg" alt="icono Html">
+    </div>
     </div>
     <div class="content__icon">
-       <div class="figure"><img class="icon__skill" src="/icons/JavaScript.svg" alt="icono js">
-       </div>
+      <div class="figure"><img class="icon__skill" src="/icons/JavaScript.svg" alt="icono js">
+      </div>
     </div>
     <div class="content__icon">
       <div class="figure"><img class="icon__skill" src="/icons/Git.svg" alt="git">
@@ -162,7 +163,7 @@
 </section>
 <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 80" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #171717;"></path></svg></div>
 <div class = "title__sectionAcademy">
-  <h2 class="academy__title">Formacion Academica</h2>
+  <h2 class="academy__title">Formacion Academica Y Proyectos</h2>
 </div>
 <section class="academy">       
   <div class="container">
@@ -181,9 +182,79 @@
         </div>
       </div>
     </div>
+
+    <div class="card">
+      <div class="card-header">
+        <img class="img__one" src="/imagenes/logo-one.png" alt="one" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">FORMACION</span>
+        <h4>Desarrollo y programacion web enfocada en Frontend</h4>
+        <div class="user">
+          <img src="/imagenes/a-latam.jfif" alt="alura" />
+          <div class="user-info">
+            <small>2022 - 2023</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        <img class="img__one" src="/imagenes/logo-one.png" alt="one" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">FORMACION</span>
+        <h4>Desarrollo y programacion web enfocada en Frontend</h4>
+        <div class="user">
+          <img src="/imagenes/a-latam.jfif" alt="alura" />
+          <div class="user-info">
+            <small>2022 - 2023</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     
 </section>
-<section class="exp"></section> 
+<section class="exp" id="seccionExp">
+  <div class="img__ref">
+    <img src="/imagenes/Rectangle.png">
+  </div>
+  <div class="Text__ref">
+    <span class="text__1">Juego creado con HTML, CSS y JavaScript</span>
+    <p class="text__2">Challenge Oracle</p>
+    <div class="buttonSection">
+      <a href="https://github.com/CharlieIVN/ChallangeEncriptador">
+      <button class="downloadRep">Repositorio</button>
+      </a>
+
+      <a href="https://charlieivn.github.io/ChallangeEncriptador/">
+        <button class="demoButton">Ver Demo</button>
+      </a>
+    </div>
+    
+    </div>
+</section>
+
+<section class="formSeccion">
+
+<form>
+    <label for="name">
+    <input type="text" name="name" placeholder="Nombre">
+
+    <label for="email">
+    <input type="text" name="email" placeholder="Email">
+
+    <label for="subject">
+    <input type="text" name="subject" placeholder="Asunto">
+
+    <label for="coments">
+    <textarea name="coments" cols="15" rows="5"></textarea>
+  </form>
+
+</section> 
 
 </main>
 

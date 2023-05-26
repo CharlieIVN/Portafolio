@@ -1,0 +1,52 @@
+.exp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+.Text__ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    height: 300px;
+}
+.buttonSection{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.downloadRep{
+    color: black;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    background: #27AE60;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+.downloadRep:hover{
+    background: #219250;
+}
+.demoButton{
+    background-color: #171717;
+    color: azure;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #27AE60;
+    cursor: pointer;
+    border: none;
+}
+.demoButton:hover{
+    background-color: #1d1c1c;
+}
+.img__ref{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
